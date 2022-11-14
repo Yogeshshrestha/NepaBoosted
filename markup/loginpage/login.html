@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet"> <!---google funds--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <link media="all" rel="stylesheet" href="../homepage/css/main.css"> <!---css link-->
+    <link media="all" rel="stylesheet" href="../homepage/css/responsive.css">
+    <link media="all" rel="stylesheet" href="css/login.css">
+     
+    
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class=" header-top">
+                <div class="header-wrap-top container">
+                    <div class="ad">
+                        <strong class="header-title">Financing Option Available At Checkout</strong>
+                    </div>
+                    <div class="font">
+                        <div ><input type="button" value="A+" class="increaseFont"></input></div>
+                        <div><input type="button" value="A-" class="decreaseFont"></input></div>
+                    </div>
+                </div>
+            </div>
+            <div class="complete-header-wrap container" >
+                <div class="header-wrap header-middle">
+                    <div class="logo">                        
+                        <a href="../homepage/index.html">
+                            <img src="image/logo.png" alt="Boosted Nepal">
+                        </a>
+                    </div>
+                </div>
+                <nav class="header-wrap" style="margin: 20px 0px 0px;">
+                    <ul class="header-link header-nav">
+                        <li><a href="../electricSkateboard/electricBoard.html">Electric SkateBoard</a> </li>
+                        <li><a href="#">Electric Skooter</a> </li>
+                        <li><a href="#">Accessories</a> </li>
+                        <li><a href="#">Gift Card</a> </li>
+                        <li class="dropdown"><a href="#">More Info</a>
+                            <ul class="dropdown-nav">
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="../faq/faq.html">FAQs</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                    <div class="menus">
+                        <label class="side-menu mobile-opener"><i class="fa fa-bars"></i></label>
+                        <label href="#" class="side-menu mobile-opener close"><i class="fa fa-times"></i><label>
+                    </div>
+                </nav>
+                <nav class="icon-opener" style="margin: 20px 0px 0px;">
+                    <ul class="header-link icon-nav">
+                        <li><a href="#" class="icon search-icon">
+                            <img onclick="openSearch()" onclick="closeSearch" src="image/search.png" alt="search icon"
+                            ></a>
+                            <a onclick="openSearch()" onclick="closeSearch"href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="../loginpage/login.html" class="icon login-icon">
+                                <img src="image/login.png" alt="image description">
+                            </a>
+                            <a href="../loginpage/login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon cart-icon">
+                                <img src="image/cart.png" alt="image description">
+                            </a>
+                            <a href="../cartpage/cart.html">Cart</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>  
+            <!---side bar-->
+            <nav class="side-icon-opener" style="padding: 5px">
+                <ul class="header-sidenav sidenav-icon">
+                    <li><a href="#" class="side-icon">
+                        <img onclick="openSearch()" onclick="closeSearch" src="image/search.png" alt="image description"
+                        ></a>
+                        <a onclick="openSearch()" onclick="closeSearch" href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="../loginpage/login.html" class="icon login-icon">
+                            <img src="image/login.png" alt="image description">
+                        </a>
+                        <a href="../loginpage/login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon cart-icon">
+                            <img src="image/cart.png" alt="image description">
+                        </a>
+                        <a href="#">Cart</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-bar" id="sideNav">
+                <nav class="header-side-wrap" style="margin: 20px 0px 0px;">
+                    <ul class="header-sidenav side-nav">
+                        <li><a href="#">Electric SkateBoard</a> </li>
+                        <li><a href="#">Electric Skooter</a> </li>
+                        <li><a href="#">Accessories</a> </li>
+                        <li><a href="#">Gift Card</a> </li>
+                        <li class="dropdown"><a href="#">More Info</a>
+                            <ul class="dropdown-nav">
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search-opener" id="mySearch">
+                <form class="search-bar container" action="#" method="" style="margin:auto;max-width:700px">
+                    <input type="search" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="times" onclick="closeSearch()"><i class="fa fa-times"></i></button>
+                </form>
+            </div>        
+        </header>
+        <main id="content" role="main">
+            <!---section starts-->
+            <section class="section-login">
+                <div class="login container">
+                    <h1>Customer Login</h1>
+                    <form class="customer-login">
+                        <div class="email">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="yogesh5@gmail.com" name="email">
+                            <div class="hint">
+                                <button type="button"><span class="fa fa-exclamation"></span></button>
+                                <div class="hint-dropdown">
+                                    <p>Please enter your email address to login</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="password">
+                            <label>Password</label>
+                            <input type="password" placeholder="Password..." name="password">
+                            <div class="hint">
+                                <button type="button"><span class="fa fa-exclamation"></span></button>
+                                <div class="hint-dropdown">
+                                    <p>Pleaser enter the your password to login</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login-btn">
+                            <button type="submit" class="btn-login">Login</button>
+                            <button class="forget"><a href="#">forget your password?</a></button>
+                        </div>
+                        <div class="signup-btn">
+                            <label>New Customer?</label>
+                            <a href="signup.html">Sign Up</a>
+                        </div>
+                        <div class="login-msg">
+                            <p>You are successfully logged in</p>
+                        </div>
+                    </form>
+                </div>               
+            </section>
+            <footer id="footer">
+                
+            </footer>
+        </main>
+    </div>
+    <script src="../homepage/js/main.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    
+        $(document).ready(function(){
+         $(".increaseFont,.decreaseFont").click(function(){
+         var type=  $(this).val();
+          var curFontSize = $('#content').css('font-size');
+          alert(curFontSize);
+          if(type=='A+'){
+           $('#content').css('font-size', parseInt(curFontSize)+2);
+           }
+          else{
+           $('#content').css('font-size', parseInt(curFontSize)-2);
+          }
+          alert($('#content').css('font-size'));
+       
+            });
+        });
+    </script>
+</body>
+</html>

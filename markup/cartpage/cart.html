@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet"> <!---google funds--->
+
+    <link media="all" rel="stylesheet" href="../homepage/css/main.css"> <!---css link-->
+    <link media="all" rel="stylesheet" href="../homepage/css/responsive.css">
+    <link media="all" rel="stylesheet" href="css/cart.css">
+        
+    
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <div class=" header-top">
+                <div class="header-wrap-top container">
+                    <div class="ad">
+                        <strong class="header-title">Financing Option Available At Checkout</strong>
+                    </div>
+                    <div class="font">
+                        <div ><input type="button" value="A+" class="increaseFont"></input></div>
+                        <div><input type="button" value="A-" class="decreaseFont"></input></div>
+                    </div>
+                </div>
+            </div>
+            <div class="complete-header-wrap container" >
+                <div class="header-wrap header-middle">
+                    <div class="logo">                        
+                        <a href="../homepage/index.html" accesskey="h">
+                            <img src="image/logo.png" alt="Boosted Nepal">
+                        </a>
+                    </div>
+                </div>
+                <nav class="header-wrap" style="margin: 20px 0px 0px;">
+                    <ul class="header-link header-nav">
+                        <li><a href="../electricSkateboard/electricBoard.html">Electric SkateBoard</a> </li>
+                        <li><a href="#">Electric Skooter</a> </li>
+                        <li><a href="#">Accessories</a> </li>
+                        <li><a href="#">Gift Card</a> </li>
+                        <li class="dropdown"><a href="#">More Info</a>
+                            <ul class="dropdown-nav">
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="../faq/faq.html">FAQs</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                    <div class="menus">
+                    <a href="#" type="submit" class="side-menu" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+                    </div>
+                </nav>
+                <nav class="icon-opener" style="margin: 20px 0px 0px;">
+                    <ul class="header-link icon-nav">
+                        <li><a href="#" class="icon search-icon">
+                            <img onclick="openSearch()" onclick="closeSearch" src="image/search.png" alt="search"
+                            ></a>
+                            <a onclick="openSearch()" onclick="closeSearch" href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="../loginpage/login.html" class="icon login-icon">
+                                <img src="image/login.png" alt="login">
+                            </a>
+                            <a href="../loginpage/login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon cart-icon">
+                                <img src="image/cart.png" alt="add to cart">
+                            </a>
+                            <a href="#">Cart</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>  
+            <!---side bar-->
+            <nav class="side-icon-opener" style="padding: 5px">
+                <ul class="header-sidenav sidenav-icon">
+                    <li><a href="#" class="side-icon">
+                        <img onclick="openSearch()" onclick="closeSearch" src="image/search.png" alt="search"
+                        ></a>
+                        <a onclick="openSearch()" onclick="closeSearch" href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="../loginpage/login.html" class="icon login-icon">
+                            <img src="image/login.png" alt="login">
+                        </a>
+                        <a href="../loginpage/login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon cart-icon">
+                            <img src="image/cart.png" alt="add to cart">
+                        </a>
+                        <a href="#">Cart</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-bar" id="sideNav">
+                <nav class="header-side-wrap" style="margin: 20px 0px 0px;">
+                    <a href="#" type="submit" class="side-times" id="myTimes" onclick="closeMenu()"><i class="fa fa-times"></i></a>
+                    <ul class="header-sidenav side-nav">
+                        <li><a href="#">Electric SkateBoard</a> </li>
+                        <li><a href="#">Electric Skooter</a> </li>
+                        <li><a href="#">Accessories</a> </li>
+                        <li><a href="#">Gift Card</a> </li>
+                        <li class="dropdown"><a href="#">More Info</a>
+                            <ul class="dropdown-nav">
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search-opener" id="mySearch">
+                <form class="search-bar container" action="#" method="" style="margin:auto;max-width:700px">
+                    <input type="search" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="times" onclick="closeSearch()"><i class="fa fa-times"></i></button>
+                </form>
+            </div>        
+        </header>
+        <main id="content" role="main">
+            <!---section starts-->
+            <section class="content-section-cart">
+            	<div class= "container">
+            		<div class="shopping-cart">
+            			<h1>Shopping Cart</h1>
+                        <div class="cart-row">
+                            <div class="row products">
+                                <h2>Products</h2>
+                                <div class="inner product">
+                                    <img src="../electricSkateboard/image/boosted-stealth.png "  style="height: 100px;" alt="boosted Stealth">
+                                </div>
+                            </div>
+                            <div class="row description">
+                                <h2>Description</h2>
+                                <div class=inner desc>
+                                    <h3>Boosted stealth</h3>
+                                    <strong>condition: New</strong>
+                                </div>
+                            </div>
+                            <div class="row price">
+                                <h2>Price</h2>
+                                <div class="inner prc">
+                                    <ins>$1499.00</ins>
+                                </div>
+                            </div>
+                            <div class="row quantity">
+                                <h2>Quantity</h2>
+                                <div class="inner qty">
+                                    <div class="minus-control">
+                                        <label><input type="button" value="+" class="increase" id="plus" name="decrease font size"></input></label>
+                                    </div>
+                                    <label><input class="quantity-element" id="quantity" type="number" min="1" size="2" name="quantity" value="1" > </label>
+                                    <div class="plus-control">
+                                        <label><input type="button" value="-" class="decrease" id="minus" name="increase font size"></input></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row total">
+                                <h2>Total</h2>
+                                <div class="inner tol" id="total">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-btn">
+                            <label type="submit"><a class="continue" href="../Shipping/information.html">Continue Shipping</a></label>
+                            <label><a class="proceed" href="../Shipping/information.html">Proceed to checkout</a></label>
+                        </div>
+            		</div>
+            	</div>
+                
+            </section>
+
+
+            <footer id="footer">
+                
+            </footer>
+        </main>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="../homepage/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+        $(".increase,.decrease").click(function(){
+         var type=  $(this).val();
+        var curFontSize = $('.tol');
+        if(type=='+'){
+             $('.tol')( parseInt(curFontSize)+1);
+         }
+        else{
+         $('.tol')( parseInt(curFontSize)-1);
+         }
+       });
+   });
+    </script>
+</body>
+</html>

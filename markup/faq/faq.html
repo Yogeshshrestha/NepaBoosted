@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQs</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+      rel="stylesheet"
+    />
+    <!---google funds--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <link media="all" rel="stylesheet" href="../homepage/css/main.css" />
+    <!---css link-->
+    <link media="all" rel="stylesheet" href="../homepage/css/responsive.css" />
+    <link medio="all" rel="stylesheet" href="css/faq.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header id="header">
+        <div class=" header-top">
+            <div class="header-wrap-top container">
+                <div class="ad">
+                    <strong class="header-title">Financing Option Available At Checkout</strong>
+                </div>
+                <div class="font">
+                    <div ><input type="button" value="A+" class="increaseFont"></input></div>
+                    <div><input type="button" value="A-" class="decreaseFont"></input></div>
+                </div>
+            </div>
+        </div>
+        <div class="complete-header-wrap container" >
+            <div class="header-wrap header-middle">
+                <div class="logo">                        
+                    <a href="../homepage/index.html">
+                        <img src="../homepage/image/logo.png" alt="Boosted Nepal">
+                    </a>
+                </div>
+            </div>
+            <nav class="header-wrap" style="margin: 20px 0px 0px;">
+                <ul class="header-link header-nav">
+                    <li><a href="../electricSkateboard/electricBoard.html">Electric SkateBoard</a> </li>
+                    <li><a href="../electricSkateboard/electricBoard.html">Electric Skooter</a> </li>
+                    <li><a href="#">Accessories</a> </li>
+                    <li><a href="#">Gift Card</a> </li>
+                    <li class="dropdown"><a href="#">More Info</a>
+                        <ul class="dropdown-nav">
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="../faq/faq.html">FAQs</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul> 
+                    </li>
+                </ul>
+                <div class="menus">
+                    <a href="#" class="side-menu mobile-opener"><i class="fa fa-bars"></i></a>
+                    <a href="#" class="side-menu mobile-opener close"><i class="fa fa-times"></i></a>
+                </div>
+            </nav>
+            <nav class="icon-opener" style="margin: 20px 0px 0px;">
+                <ul class="header-link icon-nav">
+                    <li><a href="#" class="icon search-icon">
+                        <img onclick="openSearch()" onclick="closeSearch" src="../homepage/image/search.png" alt="search icon"
+                        ></a>
+                        <a onclick="openSearch()" onclick="closeSearch"href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="../loginpage/login.html" class="icon login-icon">
+                            <img src="../homepage/image/login.png" alt="image description">
+                        </a>
+                        <a href="../loginpage/login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon cart-icon">
+                            <img src="../homepage/image/cart.png" alt="image description">
+                        </a>
+                        <a href="../cartpage/cart.html">Cart</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>  
+        <!---side bar-->
+        <nav class="side-icon-opener" style="padding: 5px">
+            <ul class="header-sidenav sidenav-icon">
+                <li><a href="#" class="side-icon">
+                    <img onclick="openSearch()" onclick="closeSearch" src="../homepage/image/search.png" alt="search icon"
+                    ></a>
+                    <a onclick="openSearch()" onclick="closeSearch" href="#">Search</a>
+                </li>
+                <li>
+                    <a href="../loginpage/login.html" class="icon login-icon">
+                        <img src="../homepage/image/login.png" alt="login icon">
+                    </a>
+                    <a href="../loginpage/login.html">Login</a>
+                </li>
+                <li>
+                    <a href="#" class="icon cart-icon">
+                        <img src="../homepage/image/cart.png" alt="cart icon">
+                    </a>
+                    <a href="#">Cart</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="side-bar" id="sideNav">
+            <nav class="header-side-wrap" style="margin: 20px 0px 0px;">
+                <ul class="header-sidenav side-nav">
+                    <li><a href="../electricSkateboard/electricBoard.html">Electric SkateBoard</a> </li>
+                    <li><a href="../electricSkateboard/electricBoard.html">Electric Skooter</a> </li>
+                    <li><a href="#">Accessories</a> </li>
+                    <li><a href="#">Gift Card</a> </li>
+                    <li class="dropdown"><a href="#">More Info</a>
+                        <ul class="dropdown-nav">
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="../faq/faq.html">FAQs</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul> 
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-opener" id="mySearch">
+            <form class="search-bar container" action="#" method="" style="margin:auto;max-width:700px">
+                <input type="search" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="submit" class="times" onclick="closeSearch()"><i class="fa fa-times"></i></button>
+            </form>
+        </div>        
+    </header>
+      <main id="content">
+        <section class="section-faq">
+          <div class="faqs faqs-container">
+            <h1>FAQS</h1>
+            <details>
+              <summary>
+                Q: Are your products 100% manufactured by Boosted?
+              </summary>
+              <p>
+                A: Yup, we acquired everything that Boosted had, and it came
+                direct from them.
+              </p>
+            </details>
+            <details>
+              <summary>Q: What if something says out of stock?</summary>
+              <p>
+                A: We are absolutely not permitted to create new products for /
+                by Boosted because their IP was sold off. We can only sell the
+                rest of the stock that we have. Supplies are extremely limited,
+                this is the last of Boosted's stock and when it's gone it's gone
+                forever. Once something says sold out, that is it, you will not
+                be able to get it again.
+              </p>
+            </details>
+            <details>
+              <summary>Q: Who pays for shipping?</summary>
+              <p>
+                USA answer: We will pay for shipping on anything over $100. If
+                you need something repaired you will be required to pay for
+                shipping both ways. If your board requires a warranty part we
+                will do our best to ship you a replacement part on us to get you
+                back up and rolling.
+              </p>
+              <p>Canadian answer: Please see <a href="#">shipping page</a></p>
+            </details>
+            <details>
+              <summary>
+                Q: Where are you located, can I come in for a visit?
+              </summary>
+              <p>
+                A: We are located in San Francisco, CA and are not open to the
+                public.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: I am a retailer and am desperate for more Boosted products.
+                Can you hook me up?
+              </summary>
+              <p>
+                A: Send us an email: <a href="#">support@boostedNepal.com</a>
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: I am international, specifically Canada. Can I buy from you?
+              </summary>
+              <p>
+                A: We are now shipping to Canada! We are actively trying to go
+                more international, please keep an eye on our instagram
+                @boosted_nepal to stay up to date on announcements.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: I am going to use a freight forwarder. What happens if they
+                can not forward the order because of a battery or other issue?
+              </summary>
+              <p>
+                A: Regardless of us warning people, some people have tried to
+                use a freight forwarder to order boards and scooters. If your
+                board or scooter gets rejected and returned to us, we will
+                refund you - $200 / unit, to cover our shipping and rerouting
+                fees. (Yes it costs us approximately $200 when your order gets
+                rejected)
+              </p>
+            </details>
+            <details>
+              <summary>Q: How about Alaska or Hawaii?</summary>
+              <p>
+                A: As much as we would like to ship to you, Fedex and UPS are
+                very specific about our batteries traveling on airplanes so we
+                can not ship to either of those states.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: What happens to me if I already own a Boosted Board with a
+                warranty?
+              </summary>
+              <p>
+                A: We are not Boosted Boards. Unfortunately Boosted went
+                bankrupt and from what we've seen older warranty claims are
+                being ignored
+              </p>
+            </details>
+            <details>
+              <summary>Q: Then who are you guys?</summary>
+              <p>
+                A: We are the guys who bought all of the remaining inventory
+                from Boosted after they shut their doors.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: What does that mean for me? Can I still get service for my
+                Board / Rev?
+              </summary>
+              <p>
+                A: We cannot honor warranties for items bought from Boosted
+                because they are a different company. We can absolutely help you
+                with service. If there is something that you need from us,
+                belts, chargers, advice, please feel free to reach out to us:
+                <a href="#">info@boostednepal.com</a> and we will do the best we
+                can to respond to you ASAP.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: So if I have a warranty/repair issue with a board/scooter I
+                already own I'm totally screwed?
+              </summary>
+              <p>
+                A: On the one hand, yes; when Boosted went bankrupt it appears
+                that your claims to free replacements/repairs may have gone up
+                in smoke. That being said, we understand the frustration you may
+                feel and we want to do what we can to help. Email us at
+                <a href="#">info@boostednepal.com</a> and let us know what's
+                going on and we'll do our best to sort you out as fairly as
+                possible, just remember that we are a different company and had
+                nothing to do with your original purchase so if we don't hand
+                you a new board please don't yell at us.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: If I buy something from you, what sort of warranty do I have?
+              </summary>
+              <p>
+                A: We have a limited 60 day warranty for everything you receive.
+                This covers you for manufacturers defects out of the box. If you
+                receive a product that you believe is defective please contact
+                us immediately and do not use your product. Please include your
+                serial number (if applicable) and a photo or video demonstrating
+                the problem and email it to:
+                <a href="#">info@boostednepal.com</a> If we decide your issue
+                needs inspection or replacement we will provide you with an RA
+                number that must be attached to any items shipped back to us.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q: I need a replacement part that I don't see on your site.
+              </summary>
+              <p>
+                A. That's not a question but you should know that we're
+                continuing to receive boxes of goods and as we find items we
+                will be adding them to our website for sale. Please keep an eye
+                on the site in the coming weeks.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q. Will you be receiving more 105 wheels and/or Beams?
+              </summary>
+              <p>
+                A. We hope so but again, we're unboxing products as fast as we
+                can. We expect to see more of these items and we will add them
+                to the site as soon as we do. In the meantime make sure to add
+                your email to the "notify me" box and you'll get an email as
+                soon as more stock is added.
+              </p>
+            </details>
+            <details>
+              <summary>
+                Q. I have an existing Boosted product with an issue. Can you
+                help me repair it?
+              </summary>
+              <p>
+                A. If you have a Rev, yes! To get advice on how to fix an issue
+                with your Rev, for assistance figuring out what part you need,
+                or to start a repair ticket, please contact our service
+                department at <a href="#">info@boostednepal.com</a> Please
+                attach any relevant videos or photos showing your issue so the
+                specialists can best assist you. Unfortunately, we're not able
+                to repair boards, however we are able to provide you with
+                pointers and sell you spare parts that will get your board up
+                and going. Please email us and we'll do our best to help you
+                out.
+              </p>
+            </details>
+          </div>
+        </section>
+        <footer id="footer">
+          <div class="contact-me container">
+              <p>If you would like to know future products enter your name, email address then say ‘Yes I’m In’</p>
+              <form action="" class="contact-form" method="POST">
+                  <div class="contact-input">
+                      <input type="text" placeholder="Full Name" name="name" value="" id="if-name">
+                      <div class="side-hint">
+                          <span class="fa fa-exclamation"></span>
+                          <div class="hint-dropdown">
+                              <p>Enter Your Name</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="contact-input">
+                      <input type="text" placeholder="Email Address"  name="email">
+                      <div class="side-hint">
+                          <span class="fa fa-exclamation"></span>
+                          <div class="hint-dropdown">
+                              <p>Enter Your Email Address</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div  class="suscribe">
+                      <span class="loading"></span>
+                      <button type="submit" btn btn-primary>Yes I'm In</button>
+                  </div>
+                  
+                <div id="form-result">
+                  <ul></ul>
+                </div>
+              </form>
+              
+              <strong>© 2021 Boosted Nepal. All Rights Reserved. Terms of Service. Built by Yogesh </strong>
+          </div>
+      </footer>
+      </main>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="../homepage/js/main.js"></script>
+  </body>
+</html>

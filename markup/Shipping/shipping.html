@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Information</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet"> <!---google funds--->
+
+    <link media="all" rel="stylesheet" href="../homepage/css/main.css"> <!---css link-->
+    <link media="all" rel="stylesheet" href="../homepage/css/responsive.css">
+     
+</head>
+<body>
+	<div id="wrapper">
+		<header id="header">
+            <div class=" header-top">
+                <div class="header-wrap-top container">
+                    <div class="ad">
+                        <strong class="header-title">Financing Option Available At Checkout</strong>
+                    </div>
+                    <div class="font">
+                        <div ><input type="button" value="A+" class="increaseFont"></input></div>
+                        <div><input type="button" value="A-" class="decreaseFont"></input></div>
+                    </div>
+                </div>
+            </div>
+            <div class="complete-header-wrap container" >
+                <div class="header-wrap header-middle">
+                    <div class="logo">                        
+                        <a href="../homepage/index.html">
+                            <img src="../homepage/image/logo.png" alt="Boosted Nepal">
+                        </a>
+                    </div>
+                </div>
+                <nav class="header-wrap" style="margin: 20px 0px 0px;">
+                    <ul class="header-link header-nav">
+                        <li><a href="../electricSkateboard/electricBoard.html">Electric SkateBoard</a> </li>
+                        <li><a href="../electricSkateboard/electricBoard.html">Electric Skooter</a> </li>
+                        <li><a href="#">Accessories</a> </li>
+                        <li><a href="#">Gift Card</a> </li>
+                        <li class="dropdown"><a href="#">More Info</a>
+                            <ul class="dropdown-nav">
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="../faq/faq.html">FAQs</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                    <div class="menus">
+                        <a href="#" class="side-menu mobile-opener"><i class="fa fa-bars"></i></a>
+                        <a href="#" class="side-menu mobile-opener close"><i class="fa fa-times"></i></a>
+                    </div>
+                </nav>
+                <nav class="icon-opener" style="margin: 20px 0px 0px;">
+                    <ul class="header-link icon-nav">
+                        <li><a href="#" class="icon search-icon">
+                            <img onclick="openSearch()" onclick="closeSearch" src="../homepage/image/search.png" alt="search icon"
+                            ></a>
+                            <a onclick="openSearch()" onclick="closeSearch"href="#">Search</a>
+                        </li>
+                        <li>
+                            <a href="../loginpage/login.html" class="icon login-icon">
+                                <img src="../homepage/image/login.png" alt="image description">
+                            </a>
+                            <a href="../loginpage/login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon cart-icon">
+                                <img src="../homepage/image/cart.png" alt="image description">
+                            </a>
+                            <a href="../cartpage/cart.html">Cart</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>  
+            <!---side bar-->
+            <nav class="side-icon-opener" style="padding: 5px">
+                <ul class="header-sidenav sidenav-icon">
+                    <li><a href="#" class="side-icon">
+                        <img onclick="openSearch()" onclick="closeSearch" src="../homepage/image/search.png" alt="search icon"
+                        ></a>
+                        <a onclick="openSearch()" onclick="closeSearch" href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="../loginpage/login.html" class="icon login-icon">
+                            <img src="../homepage/image/login.png" alt="login icon">
+                        </a>
+                        <a href="../loginpage/login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon cart-icon">
+                            <img src="../homepage/image/cart.png" alt="cart icon">
+                        </a>
+                        <a href="#">Cart</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="side-bar" id="sideNav">
+                <nav class="header-side-wrap" style="margin: 20px 0px 0px;">
+                    <ul class="header-sidenav side-nav">
+                        <li><a href="../electricSkateboard/electricBoard.html">Electric SkateBoard</a> </li>
+                        <li><a href="../electricSkateboard/electricBoard.html">Electric Skooter</a> </li>
+                        <li><a href="#">Accessories</a> </li>
+                        <li><a href="#">Gift Card</a> </li>
+                        <li class="dropdown"><a href="#">More Info</a>
+                            <ul class="dropdown-nav">
+                                <li><a href="#">Shipping</a></li>
+                                <li><a href="../faq/faq.html">FAQs</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="search-opener" id="mySearch">
+                <form class="search-bar container" action="#" method="" style="margin:auto;max-width:700px">
+                    <input type="search" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <button type="submit" class="times" onclick="closeSearch()"><i class="fa fa-times"></i></button>
+                </form>
+            </div>        
+        </header>
+		<main id="content">
+			<!---section -->
+			<section>
+                <div class="information-container">
+					<div class="breadcrumbs">
+						<nav class="breadcrumb">
+							<ul class="bc">
+								<li><a href="../cartpage/cart.html">Cart</a></li>
+								<li><a href="information.html">Information</a></li>
+								<li><a class="active" href="shipping.html">Shipping</a></li>
+								<li><a href="payment.html">Payment</a></li>
+							</ul>
+						</nav>
+					</div>
+                    <div class="shipping-method">
+                        <h3>Shipping Method</h3>
+                        <form class="method">
+                            <div class="standard">
+                                <input type="radio">
+                                <label>Standard Shipping</label>
+                            </div>
+                            <strong>free</strong>
+                        </form>
+                    </div>
+                    <div class="shipping-btn">
+						<a class="continue-shipping"href="payment.html">Continue Payment</a>
+						<a class="return-cart"href="information.html">Return to Information</a>
+					</div>
+                </div>    
+            </section>
+		</main>
+	</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="../homepage/js/main.js"></script>
+</body>
+</html>

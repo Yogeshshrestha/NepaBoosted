@@ -1,0 +1,315 @@
+@media only screen and (max-width: 479px) {
+  /*for header*/
+  .header-link {
+    display: none;
+  }
+
+  .header-link .side-menu {
+    display: block;
+  }
+
+  .header-middle {
+    padding: 5px 20px;
+  }
+  /* 
+  .logo img {
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+  } */
+  /* 
+  .search-opener {
+    width: 100%;
+  } */
+
+  .side-icon-opener {
+    display: block;
+  }
+
+  .sidenav-icon {
+    display: flex;
+  }
+  /* 
+  .sidenav-icon li {
+    margin: 0 auto;
+  } */
+  /* 
+  .side-menu {
+    display: block;
+    margin-right: 5px;
+  } */
+
+  /* .header-sidenav img {
+    height: 20px;
+    width: 20px;
+  } */
+  /*section*/
+  .section-top {
+    height: 42vh;
+    background-position: 0 0;
+  }
+
+  /* .welcome {
+    padding-top: 10px;
+  } */
+
+  .button a {
+    height: 40px;
+    width: 150px;
+    line-height: 0.7;
+  }
+
+  .board-type {
+    width: 358px;
+    padding-top: 130px;
+  }
+
+  .board-type button {
+    width: 100px;
+  }
+
+  .accessories {
+    margin-bottom: 10px;
+  }
+
+  .item {
+    height: 160px;
+  }
+
+  .section-middle {
+    margin-bottom: 20px;
+  }
+
+  .contact-me {
+    padding-top: 30px;
+    width: 75%;
+  }
+
+  .contact-input label,
+  .contact-input input {
+    height: 30px;
+  }
+
+  /*electric skate board starts*/
+  .grid-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .specs-part {
+    display: block;
+  }
+
+  .specs-part .part {
+    margin-bottom: 30px;
+  }
+  /*electric skateboard ends*/
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 710px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .welcome h1,
+  .looking h1,
+  .skate-description h1,
+  .titles h1 {
+    font-size: 20px;
+  }
+
+  .board-type h2 {
+    font-size: 16px;
+  }
+
+  .item a {
+    font-size: 14px;
+  }
+
+  .welcome p,
+  .looking p,
+  .skate-description p,
+  .titles p,
+  .item p,
+  .contact-form p {
+    font-size: 12px;
+  }
+
+  .welcome a,
+  .board-type a,
+  .skate-description a,
+  .scooty a,
+  .view a,
+  .suscribe button {
+    font-size: 14px;
+    line-height: 0.9;
+  }
+
+  .section-top {
+    background-position: 0 0;
+    height: 60vh;
+  }
+  .section-top {
+    height: 60vh;
+  }
+
+  .button button {
+    margin: 10px 20px;
+  }
+
+  .titles {
+    width: 75%;
+  }
+
+  .section-middle1 {
+    height: 60vh;
+  }
+
+  .looking-types {
+    gap: 15px;
+  }
+
+  .boosted {
+    height: 400px;
+  }
+
+  .board-type {
+    padding-top: 100px;
+  }
+  .skate-description {
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  .scooty h1 {
+    font-size: 20px;
+  }
+
+  .scooty p,
+  .scooty button {
+    font-size: 14px;
+  }
+
+  .view {
+    margin-bottom: 35px;
+  }
+  .contact-me {
+    width: 80%;
+    padding-bottom: 30px;
+  }
+
+  .contact-input label,
+  .contact-input input {
+    font-size: 14px;
+    height: 30px;
+    width: 200px;
+  }
+
+  .hint-dropdown {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    left: -200px;
+  }
+
+  strong {
+    font-size: 10px;
+  }
+
+  /*electric skateboard css starts*/
+  .performance-flex {
+    display: block;
+  }
+  /*electric skateboard css ends*/
+
+  /*shipping information css */
+  .information-container {
+    width: 90%;
+  }
+
+  .customer-login {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .shortcuts {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 1199px) {
+  .header-link {
+    display: none;
+  }
+
+  .header-link .side-menu {
+    display: block;
+  }
+
+  .header-middle {
+    padding: 5px 20px;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .search-opener {
+    width: 100%;
+  }
+
+  .side-icon-opener {
+    display: block;
+  }
+
+  .sidenav-icon {
+    display: flex;
+  }
+
+  .sidenav-icon li {
+    margin: 0 auto;
+  }
+
+  .side-menu {
+    /* display: block; */
+    margin-right: 5px;
+  }
+
+  .mobile-opener .fa-bars {
+    display: block;
+  }
+
+  .header-sidenav img {
+    height: 20px;
+    width: 20px;
+  }
+
+  /* section */
+  .welcome {
+    width: 90%;
+    padding-top: 20px;
+  }
+
+  .section-top {
+    background-position: 0 0;
+  }
+
+  .looking-types {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .scooter {
+    width: 98%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+}
